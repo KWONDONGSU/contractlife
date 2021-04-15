@@ -1,0 +1,619 @@
+.inner {
+  max-width: 1280px;
+  /* min-width: 1024px; */
+  margin: 0 auto;
+}
+/* 페이지별 영역 */
+body {
+  overflow-x: hidden;
+}
+#wrap {
+  width: 100%;
+  position: relative;
+}
+/*********************header****************************/
+.nav_btn {
+  display: none;
+}
+#header .inner {
+  position: relative;
+}
+.logo {
+  width: 12.5rem;
+  float: left;
+}
+#header .logo img {
+  width: 74%;
+  height: 2.93rem;
+  position: relative;
+  top: 1.2rem;
+  left: 2rem;
+}
+#header .header_top {
+  width: calc(100% - 250px);
+  float: right;
+  text-align: right;
+}
+#header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#header #nav {
+  position: relative;
+  float: right;
+  left: 3rem;
+  bottom: 1.6rem;
+}
+.t_mn {
+  color: #ffffff;
+  text-align: center;
+  border-radius: 20px;
+}
+.t_mn > li {
+  letter-spacing: -3px;
+}
+#header #nav .depth1 > li {
+  float: left;
+  margin-left: 1.25rem;
+  padding-left: 3.12rem;
+  padding-bottom: 3.12rem;
+  color: #000000;
+}
+#header #nav .depth1 > li > a {
+  display: block;
+  line-height: 40px;
+  font-size: 1.31rem;
+  font-weight: 100;
+  color: #000000;
+  font-family: "Noto Sans KR", cursive;
+}
+#header #nav .depth1 > li:hover ul {
+  display: block;
+}
+#header #nav .depth1 ul {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 20px 0;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  display: none;
+  z-index: 99999;
+}
+#header #nav .depth1 ul li {
+  background: url(../) no-repeat;
+  display: inline-block;
+  padding: 0 30px;
+}
+#header #nav .depth1 ul li:last-child {
+  background: none;
+}
+/*********************header 끝****************************/
+/*********************main시작****************************/
+/* 섹션1시작 */
+#sec1 {
+}
+/* 메인배너 */
+.main_banner {
+  width: 100%;
+  height: 38.75rem;
+  background-color: #f5f5f5;
+}
+.main_banner img {
+  width: 40.87rem;
+  position: relative;
+  top: 4rem;
+  left: 20.12rem;
+}
+/* 메인배너끝 */
+/* 문의버튼 */
+.inquiry_button {
+  width: 100%;
+  height: 7.5rem;
+  background-color: #f69c2e;
+}
+.inquiry_button img {
+  width: 7.5rem;
+  float: left;
+  margin-left: 44rem;
+  padding-top: 0.2rem;
+}
+.inquiry_text {
+  font-size: 2.81rem;
+  color: #ffffff;
+  padding-top: 1.7rem;
+}
+/* 문의버튼끝 */
+/* 섹션1끝*/
+/* 섹션2시작 */
+.sec2_text {
+  font-size: 2.81rem;
+  color: #a6cb2f;
+  position: relative;
+  right: 6rem;
+  top: 6.5rem;
+}
+.bg_1 img {
+  width: 17.5rem;
+  float: left;
+  margin-top: 14.62rem;
+  margin-left: 24rem;
+}
+.bg_2 img {
+  width: 17.5rem;
+  float: left;
+  margin-top: 14.62rem;
+  margin-left: 1rem;
+}
+.bg_3 img {
+  width: 17.5rem;
+  float: left;
+  margin-top: 14.62rem;
+  margin-left: 1rem;
+}
+.bg_4 img {
+  width: 17.5rem;
+  float: left;
+  margin-top: 14.62rem;
+  margin-left: 1rem;
+}
+/* 섹션2끝 */
+/* 섹션3시작 */
+#sec3 {
+  width: 100%;
+  height: 69.6rem;
+  margin-top: 53rem;
+  background-color: #f5f5f5;
+}
+.sec3_text {
+  font-size: 2.81rem;
+  color: #a6cb2f;
+  float: left;
+  margin-top: 6.68rem;
+  margin-left: 51.12rem;
+}
+.mini_title {
+  float: left;
+  margin-top: 14.68rem;
+  margin-left: -37rem;
+  width: 64rem;
+}
+.mini_title p {
+  text-align: center;
+  font-size: 1.56rem;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.sec3_text2 {
+  float: left;
+  margin-left: 0.5rem;
+  font-weight: 800;
+}
+.sec3_text3 {
+  float: left;
+}
+.sec3_text4 {
+  float: left;
+  font-weight: 800;
+}
+.sec3_text5 {
+  float: left;
+}
+.sec3_contents img {
+  width: 40.87rem;
+  margin-left: 39.56rem;
+  margin-top: 6rem;
+}
+.sec3_radius {
+  width: 25rem;
+  height: 3.75rem;
+  background-color: #a3a3a3;
+  border-radius: 2rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+.sec3_radius p {
+  margin-left: 3.56rem;
+  padding-top: 1rem;
+  font-size: 1.25rem;
+  color: #ffffff;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.sec3_radius img {
+  position: relative;
+  bottom: 1.7rem;
+  left: 20.5rem;
+}
+/* 섹션3끝 */
+/* 섹션4시작 */
+#sec4 {
+}
+.se_4 {
+  width: 100%;
+  margin-top: 7.5rem;
+}
+.obliqueline_1 img {
+  float: right;
+}
+.obliqueline_1 p {
+  margin-left: 5rem;
+  padding-top: 4rem;
+}
+.obliqueline_text1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.obliqueline_text2 {
+  font-size: 1.37rem;
+}
+.obliqueline_2 img {
+  float: left;
+  margin-left: 5.5rem;
+}
+.obliqueline_text3 {
+  float: right;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-top: 5.68rem;
+  margin-right: 24.62rem;
+}
+.obliqueline_text4 {
+  position: relative;
+  top: 19rem;
+  left: 47.8rem;
+  font-size: 1.37rem;
+}
+.obliqueline_3 img {
+  float: right;
+  margin-right: 0;
+}
+.obliqueline_text5 {
+  float: left;
+  margin-top: 4rem;
+  margin-left: 5.3rem;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.obliqueline_text6 {
+  position: absolute;
+  top: 251rem;
+  left: 24.7rem;
+  font-size: 1.37rem;
+}
+/* 섹션4끝 */
+/* 섹션5시작 */
+#sec5 {
+}
+#sec5 span {
+  opacity: 0.3;
+}
+.se5_title {
+  font-size: 2.81rem;
+  position: absolute;
+  top: 280rem;
+  left: 42rem;
+  color: #a6cb2f;
+}
+.sec5_info1 {
+  width: 100%;
+  height: 5rem;
+  position: relative;
+  top: 76.5rem;
+  left: 1rem;
+  background-color: #a6cb2f;
+}
+.sec5_info1_stick {
+  width: 0.18rem;
+  height: 5rem;
+  position: absolute;
+  left: 23rem;
+  background-color: #ffffff;
+}
+.sec5_info1_txt1 {
+  font-size: 1.56rem;
+  color: #ffffff;
+  position: absolute;
+  top: 1.6rem;
+  left: 9.5rem;
+}
+.sec5_info1_txt2 {
+  font-size: 1.56rem;
+  color: #ffffff;
+  position: absolute;
+  top: 1.6rem;
+  left: 45.5rem;
+}
+.sec5_info1_txt3 {
+  font-size: 1.25rem;
+  color: #333333;
+  position: absolute;
+  top: 296.6rem;
+  left: 22.8rem;
+}
+.sec5_info1_txt4 {
+  font-size: 1.25rem;
+  color: #333333;
+  position: absolute;
+  top: 304rem;
+  left: 28rem;
+}
+.sec5_info1_txt5 {
+  font-size: 1.25rem;
+  color: #333333;
+  position: absolute;
+  top: 311.5rem;
+  left: 27.6rem;
+}
+.sec5_info1_txt6 {
+  font-size: 1.25rem;
+  color: #333333;
+  position: absolute;
+  top: 295.6rem;
+  left: 46rem;
+}
+.sec5_info1_txt7 {
+  font-size: 1.25rem;
+  color: #333333;
+  position: absolute;
+  top: 302.3rem;
+  left: 45.8rem;
+}
+.sec5_info1_txt8 {
+  font-size: 0.9rem;
+  color: #333333;
+  position: absolute;
+  top: 306.3rem;
+  left: 46rem;
+}
+.sec5_info1_txt9 {
+  font-size: 1.25rem;
+  color: #333333;
+  position: absolute;
+  top: 310.8rem;
+  left: 45.8rem;
+}
+.sec5_info1_stick2 {
+  width: 0.1rem;
+  height: 22.5rem;
+  position: absolute;
+  top: 293.8rem;
+  left: 43.5rem;
+  background-color: #707070;
+}
+.sec5_info1_stick3 {
+  width: 80rem;
+  height: 0.12rem;
+  position: absolute;
+  top: 301rem;
+  left: 20.5rem;
+  background-color: #707070;
+}
+.sec5_info1_stick4 {
+  width: 80rem;
+  height: 0.12rem;
+  position: absolute;
+  top: 308.8rem;
+  left: 20.5rem;
+  background-color: #707070;
+}
+.sec5_info1_stick5 {
+  width: 80rem;
+  height: 0.12rem;
+  position: absolute;
+  top: 316.2rem;
+  left: 20.5rem;
+  background-color: #707070;
+}
+/* 섹션5끝 */
+/* 섹션6시작 */
+.sec_6_contents p {
+  font-size: 2.81rem;
+  position: absolute;
+  top: 325rem;
+  left: 48.5rem;
+  color: #a6cb2f;
+}
+.sec_6_main1_step1 img {
+  width: 7.5rem;
+  position: absolute;
+  top: 8rem;
+  right: 20.5rem;
+}
+.sec_6_main1_step1_1 img {
+  width: 7.5rem;
+  position: absolute;
+  top: 8rem;
+  right: 8.5rem;
+}
+.sec_6_main1_step1_2 img {
+  width: 3.5rem;
+  position: absolute;
+  top: 16.5rem;
+  right: 10.6rem;
+}
+.sec_6_main1_step1_3 {
+  position: absolute;
+  top: 334rem;
+  right: 71.6rem;
+  font-size: 1.56rem;
+}
+.sec_6_main1_step1_4 {
+  position: absolute;
+  top: 337.2rem;
+  right: 17.9rem;
+  font-size: 1.25rem;
+}
+.sec_6_main1_step2 img {
+  width: 7.5rem;
+  position: absolute;
+  top: 20rem;
+  right: 20.5rem;
+}
+.sec_6_main1_step2_1 img {
+  width: 7.5rem;
+  position: absolute;
+  top: 20rem;
+  right: 8.5rem;
+}
+.sec_6_main1_step2_2 img {
+  width: 3.5rem;
+  position: absolute;
+  top: 28.9rem;
+  right: 10.6rem;
+}
+.sec_6_main1_step2_3 {
+  position: absolute;
+  top: 346rem;
+  right: 71.6rem;
+  font-size: 1.56rem;
+}
+.sec_6_main1_step2_4 {
+  position: absolute;
+  top: 349.4rem;
+  right: 19rem;
+  font-size: 1.25rem;
+}
+.sec_6_main1_step3 img {
+  width: 7.5rem;
+  position: absolute;
+  top: 32rem;
+  right: 20.5rem;
+}
+.sec_6_main1_step3_1 img {
+  width: 7.5rem;
+  position: absolute;
+  top: 32rem;
+  right: 8.5rem;
+}
+.sec_6_main1_step3_2 img {
+  width: 3.5rem;
+  position: absolute;
+  top: 40.9rem;
+  right: 10.6rem;
+}
+.sec_6_main1_step3_3 {
+  position: absolute;
+  top: 357.8rem;
+  right: 71.6rem;
+  font-size: 1.56rem;
+}
+.sec_6_main1_step3_4 {
+  position: absolute;
+  top: 361.4rem;
+  right: 20.6rem;
+  font-size: 1.25rem;
+}
+.sec_6_main1_step4 img {
+  width: 7.5rem;
+  position: absolute;
+  top: 44rem;
+  right: 20.5rem;
+}
+.sec_6_main1_step4_1 img {
+  width: 7.5rem;
+  position: absolute;
+  top: 44rem;
+  right: 8.5rem;
+}
+.sec_6_main1_step4_2 {
+  position: absolute;
+  top: 369.8rem;
+  right: 71.6rem;
+  font-size: 1.56rem;
+}
+.sec_6_main1_step4_3 {
+  position: absolute;
+  top: 372.4rem;
+  right: 20.9rem;
+  font-size: 1.25rem;
+}
+/* * 문의버튼 */
+.inquiry_button2 {
+  width: 100%;
+  height: 7.5rem;
+  background-color: #f69c2e;
+  margin-top: 165rem;
+}
+.inquiry_button2 img {
+  width: 7.5rem;
+  float: left;
+  margin-left: 44rem;
+  padding-top: 0.2rem;
+}
+.inquiry_text2 {
+  font-size: 2.81rem;
+  color: #ffffff;
+  padding-top: 1.7rem;
+}
+/* 문의버튼끝 */
+/* 섹션6끝 */
+/*********************main끝****************************/
+/*********************footer****************************/
+
+.last {
+  width: 100%;
+  height: 20.1rem;
+  background-color: #a3a3a3;
+  z-index: 9999;
+  position: absolute;
+  top: 471rem;
+}
+.footer_mn {
+  width: 100%;
+
+  margin-top: 20px;
+}
+.ft_text1 {
+  width: 45%;
+  font-size: 0.9rem;
+  position: absolute;
+  left: 27.5rem;
+  top: 1rem;
+  color: #ffffff;
+}
+.ft_text2 {
+  width: 45%;
+  font-size: 0.9rem;
+  position: absolute;
+  left: 27.5rem;
+  top: 5rem;
+  color: #ffffff;
+}
+.ft_text3 {
+  float: left;
+  font-size: 1rem;
+  color: #ffffff;
+  position: absolute;
+  top: 10rem;
+  left: 28rem;
+}
+.ft_text4 {
+  float: left;
+  font-size: 1rem;
+  color: #ffffff;
+  position: absolute;
+  top: 17.5rem;
+  left: 46rem;
+}
+.ft_text5 {
+  float: left;
+  font-size: 1rem;
+  color: #ffffff;
+  position: absolute;
+  top: 17.5rem;
+  left: 51rem;
+}
+.ft_stick {
+  width: 0.1rem;
+  height: 1rem;
+  background-color: #ffffff;
+  position: absolute;
+  top: 18rem;
+  left: 50.45rem;
+}
+.ft_textbox {
+  clear: both;
+  padding-top: 2rem;
+  line-height: 2;
+}
+/*********************footer 끝****************************/
